@@ -8,10 +8,10 @@ How many times have you worked with a component which cycles through an array of
 
 This class abstracts all that logic for you so you can just get on with the rest of your development. You can subscribe to changes and even look up the next and previous values, which may be particularly useful in the EnumSelekta example below.
 
-- [IndexSelekta](src/IndexSelekta) does this at a most basic level by working with indexes alone.
-- [EnumSelekta](src/EnumSelekta) extends `IndexSelekta` by taking an array of strings, and providing some useful enum-based functionality.
+- [IndexSelekta](http://github.com/danielstorey/selekta/tree/master/src/IndexSelekta) does this at a most basic level by working with indexes alone.
+- [EnumSelekta](http://github.com/danielstorey/selekta/tree/master/src/EnumSelekta) extends `IndexSelekta` by taking an array of strings, and providing some useful enum-based functionality.
 
-The full reference for each class can be found in their [respective folders](src) but just to give you an idea of how they work examples are shown below
+The full reference for each class can be found in their [respective folders](http://github.com/danielstorey/selekta/tree/master/src) but just to give you an idea of how they work examples are shown below
 
 ## Installation
 ### Via a package manager:
@@ -22,14 +22,14 @@ npm install --save selekta
 
 ### As a browser ready library:
 
-Download directly from the [dist](dist) folder
+Download directly from the [dist](http://github.com/danielstorey/selekta/tree/master/dist) folder
 
 ## Examples
 
 ### IndexSelekta
 
 Example implementation of IndexSelekta in an image gallery component:
-```
+```javascript
 import { IndexSelecta } from 'selekta'
 
 class ImageGallery {
@@ -57,7 +57,7 @@ class ImageGallery {
 ### EnumSelekta
 
 Example implementation of EnumSelekta in a theme switcher
-```
+```html
 <script>
 import { EnumSelekta } from 'selekta'
 
