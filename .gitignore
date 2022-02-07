@@ -1,0 +1,16 @@
+#ide
+.idea
+.vscode
+
+# os
+.DS_Store
+
+# modules
+node_modules
+
+# test coverage reports
+coverage
+
+# local files
+*.local
+.env
